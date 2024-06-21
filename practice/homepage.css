@@ -1,0 +1,48 @@
+body {
+	background-color: #00008b;
+}
+
+span {
+	color: #ffffff;
+	font-size: 3em;
+}
+
+ul {
+	list-style-type: none;
+	overflow: hidden;
+	padding: 0;
+	margin: 0;
+}
+
+li {
+	display: flex;
+	float: left;
+	border-right: 1px solid #bbb
+}
+
+a {
+	color: #00ffff;
+}
+
+li a:hover {
+	background-color: #0000ff;
+	color: ffffff;
+}
+
+li a {
+	display: block;
+	text-decoration: none;
+	padding: 8px 16px;
+}
+	
+div {
+	color: #ffffff;
+	text-align: center;
+	margin-top: 300px;
+}
+
+.diff{
+	font-size: 1em;
+	color: #00ffff;
+		cursor: pointer;
+}

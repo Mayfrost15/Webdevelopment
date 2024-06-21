@@ -1,0 +1,52 @@
+body {
+	background-color: #00008B;
+}
+
+span {
+	color: #00ffff;
+	cursor: pointer;
+}
+
+a {
+	display: flex;
+	text-decoration: none;
+	color: #000000;
+}
+
+
+div {
+	font-size: 2.6em;
+	margin-left: 30px;
+}
+
+ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+}
+
+li {
+	float: left;
+	border-right: 1px solid #bbb
+}
+
+li:first {
+	border-left: none;
+
+li a {
+	display: block;
+	color: #00ffff;
+	padding: 8px 16px;
+	text-decoration: none;
+}
+
+li a:hover {
+	background-color: #0000ff;
+	color: white;
+}
+
+.active {
+	background-color: red;
+	color: white;
+}
